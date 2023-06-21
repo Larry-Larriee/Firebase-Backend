@@ -9,9 +9,14 @@ This Repository is a template to kickstart your own firebase backend projects. F
 ## Setup (Firebase Console)
 
 1. Create a new project in the [Firebase Console](https://console.firebase.google.com/).
-2. Add an App (Create Web App) and follow the steps.
+2. Add an App (Create Web App) 
 
-<img style="width: 500px" src="image-1.png">
+<img style="width: 500px" src="https://cdn.discordapp.com/attachments/952426595279331358/1121200521261363200/Screenshot_20230621_025145.png">
+
+3. In the **project settings** of the web app, there will be an option for `SDK Setup`. Copy the following code snippet and paste it into the `index.html` file found in the `public` folder.
+
+<img style="width: 600px" src="https://cdn.discordapp.com/attachments/952426595279331358/1121201685554024479/image.png">
+
 
 ## Setup (VSC Terminal)
 

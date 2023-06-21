@@ -17,7 +17,7 @@ exports.helloWorld = onRequest((request, response) => {
   
   // Console logging on firebase only for development purposes
   logger.info("Hello logs!", {structuredData: true});
-    
+  
   // Do something here based on the request.
 
   response.send("Hello from Firebase!");

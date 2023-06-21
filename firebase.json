@@ -18,5 +18,11 @@
         "firebase-debug.*.log"
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/bigben",
+      "function": "bigben"
+    }
   ]
 }

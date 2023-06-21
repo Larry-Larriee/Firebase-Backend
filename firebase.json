@@ -1,12 +1,4 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  },
   "functions": [
     {
       "source": "functions",
@@ -19,10 +11,12 @@
       ]
     }
   ],
-  "rewrites": [
-    {
-      "source": "/bigben",
-      "function": "bigben"
-    }
-  ]
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }

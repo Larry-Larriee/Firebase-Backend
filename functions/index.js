@@ -15,9 +15,11 @@ const logger = require("firebase-functions/logger");
 
 // https request 1
 exports.helloWorld = onRequest((request, response) => {
+  
+  // Console logging on firebase only for development purposes
   logger.info("Hello logs!", {structuredData: true});
-  response.send("Hello from Firebase!");
-
     
+  // Do something here based on the request.
 
+  response.send("Hello from Firebase!");
 });
